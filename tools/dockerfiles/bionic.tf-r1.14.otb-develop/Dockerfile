@@ -168,3 +168,4 @@ RUN echo "Create symlinks for tensorflow libs" \
 ENV PATH "$PATH:/work/otb/superbuild_install/bin/"
 ENV LD_LIBRARY_PATH "$LD_LIBRARY_PATH:/work/otb/superbuild_install/lib/:/work/tf/installdir/lib/"
 ENV PYTHONPATH "$PYTHONPATH:/work/otb/superbuild_install/lib/otb/python/"
+ENV OTB_APPLICATION_PATH "$OTB_APPLICATION_PATH:/work/otb/superbuild_install/lib/otb/applications/"
